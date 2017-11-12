@@ -1,6 +1,6 @@
 var fs = require('fs-extra');
 var path = require('path');
-var _ = require('lodash');
+var extend = require('extend');
 var validate = require("validate-npm-package-name");
 
 var defaultOptions = {
@@ -101,7 +101,8 @@ function createComponent (componentName, options) {
    * - the custom options from the CLI/caller.
    * @type {Object}
    */
-  var finalOptions = _.extend(
+  var finalOptions = extend(
+    true,
     {},
     defaultOptions,
     dynamicDefaultOptions,
