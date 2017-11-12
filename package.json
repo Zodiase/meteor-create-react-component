@@ -1,0 +1,33 @@
+{
+  "name": "@xch/meteor-create-react-component",
+  "version": "0.1.0",
+  "description": "Utility for generating React components in Meteor.",
+  "main": "index.js",
+  "bin": {
+    "createNewUiComponent": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Zodiase@github.com/Zodiase/meteor-create-react-component.git"
+  },
+  "keywords": [
+    "Meteor",
+    "React"
+  ],
+  "author": "Xingchen Hong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zodiase/meteor-create-react-component/issues"
+  },
+  "homepage": "https://github.com/Zodiase/meteor-create-react-component#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.2",
+    "lodash": "^4.17.4",
+    "shelljs": "^0.7.8",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
