@@ -1,5 +1,7 @@
 # @xch/meteor-create-react-component
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Zodiase/meteor-create-react-component.svg)](https://greenkeeper.io/)
+
 This is a CLI utility for generating React components in Meteor.
 
 ## Install
